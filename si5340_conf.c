@@ -1,18 +1,13 @@
 #include <stdio.h>
-
 #include "xil_types.h"
 #include "xparameters.h"
 #include "xio.h"
 #include "xiomodule_l.h"
-
 #include "si5340.h"
-
-
 
 #define set_address 0x00
 #define write_data 0x40
 #define GPO1 XPAR_IOMODULE_SINGLE_BASEADDR+XGO_OUT_OFFSET
-
 
 /*u32 GPO1_shadow; */
 void spi_cs(u8 value){
