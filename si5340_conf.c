@@ -139,6 +139,6 @@ return 0;
 int main()
 {
 
-	si5340_init();
+  si5340_init();
   return 0;
 }
